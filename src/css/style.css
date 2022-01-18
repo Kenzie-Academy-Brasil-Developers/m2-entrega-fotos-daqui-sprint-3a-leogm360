@@ -55,6 +55,8 @@
 /* START BODY */
 body {
   font-family: var(--poppins);
+  width: 100vw;
+  min-height: 100vh;
 }
 /* END BODY */
 
@@ -110,6 +112,7 @@ body {
   font: var(--caption);
   background: var(--color-primary-50);
   color: var(--color-primary);
+  border-radius: 5px;
   padding: 0 15px;
 }
 /* END HEADER */
@@ -118,6 +121,10 @@ body {
 .main {
   background: var(--gray-1);
   padding: 17px 11.28px;
+}
+
+.section {
+  text-align: center;
 }
 
 .figure {
@@ -142,6 +149,7 @@ body {
 }
 
 .container-header {
+  text-align: left;
   background: #ffffff;
   border-radius: 5px;
   padding: 11.17px 11.17px;

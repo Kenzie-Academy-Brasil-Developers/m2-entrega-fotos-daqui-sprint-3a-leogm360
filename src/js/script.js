@@ -15,7 +15,7 @@ function randomTag() {
 function inputTag() {
   const tag = document.querySelector(".form__input").value;
 
-  return tag;
+  return tag.trim();
 }
 
 function listTag(target) {
@@ -83,8 +83,8 @@ function callApplication(event) {
   const targetName = event.target.tagName;
 
   if (targetName === "BUTTON") {
-    const tag = inputTag();
-
+    const tag = inputTag() === "" ? randomTag() : inputTag();
+    console.log(tag);
     application(tag, buildEndPoint);
   } else if (targetName === "LI") {
     const target = event.target;
