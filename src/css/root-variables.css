@@ -1,0 +1,35 @@
+/*START IMPORTS*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/*START IMPORTS*/
+
+/*START ROOT*/
+:root {
+  /*START FONTS*/
+  --poppins: "Poppins", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --inter: "Inter", sans-serif;
+  /*END FONTS*/
+
+  /*START COLORS*/
+  --color-primary: #7253b0;
+  --color-primary-50: #f1eef8;
+  --gray-4: #212529;
+  --gray-3: #868e96;
+  --gray-2: #e9ecef;
+  --gray-1: #f8f9fa;
+  /*END COLORS*/
+
+  /*START TEXT*/
+  --title-1: bold 32px var(--poppins), sans-serif;
+  --title-2: bold 24px var(--poppins), sans-serif;
+  --title-3: bold 16px var(--poppins), sans-serif;
+  --paragraph: 400 16px var(--poppins), sans-serif;
+  --caption: 400 12px var(--poppins), sans-serif;
+  --details: 400 10px var(--poppins), sans-serif;
+  /*END TEXT*/
+}
+/*START ROOT*/

@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/normalize.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Fotos Daqui</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-background">
+        <div class="container-search">
+          <form class="form flex-col" action="">
+            <div class="container-input flex-col">
+              <label class="form__label" for="#input-pesquisa"
+                >Pesquisar por</label
+              >
+              <input
+                class="form__input"
+                type="text"
+                name="pesquisa"
+                id="input-pesquisa"
+                placeholder="Digite aqui o termo"
+              />
+            </div>
+            <button class="form__button" type="button">Pesquisar</button>
+          </form>
+        </div>
+        <ul class="container-tag flex-row">
+          <li class="container-tag__tag">Pessoas</li>
+          <li class="container-tag__tag">Decorações</li>
+          <li class="container-tag__tag">Home Office</li>
+        </ul>
+      </div>
+    </header>
 
-    <h1>Fotos Daqui</h1>
-    
-</body>
+    <main class="main">
+      <section class="section"></section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright details">&copy; 2021 Kenzie Academy Brasil</p>
+    </footer>
+
+    <script type="module" src="./src/js/script.js"></script>
+  </body>
 </html>
