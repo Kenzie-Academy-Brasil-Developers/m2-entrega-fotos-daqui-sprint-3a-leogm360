@@ -149,12 +149,23 @@ body {
 }
 
 .container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: left;
   background: #ffffff;
   border-radius: 5px;
   padding: 11.17px 11.17px;
   width: 315.8px;
   height: 66.29px;
+}
+
+.container-header__title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .container-header__rectangle {
@@ -165,7 +176,6 @@ body {
 }
 
 .container-header__paragraph {
-  margin-top: 9.37px;
 }
 
 .container-buttons {
