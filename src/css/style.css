@@ -250,6 +250,11 @@ body {
     position: relative;
   }
 
+  .container-photo {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
   .figure {
     width: 450px;
     height: 450px;
@@ -276,7 +281,7 @@ body {
 
   .container-information {
     position: absolute;
-    transform: translate(275px, -90px);
+    transform: translate(-15px, -90px);
     gap: 0 5px;
   }
 
